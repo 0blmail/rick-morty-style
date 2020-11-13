@@ -1,4 +1,4 @@
-interface Name {
+export interface Label {
   id?: number;
   name?: string;
   url?: string;
