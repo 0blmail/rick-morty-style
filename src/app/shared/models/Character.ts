@@ -7,6 +7,5 @@ export interface Character extends Label {
   gender: string;
   origin: Location;
   location: Location;
-  image: string;
   episode: string[];
 }

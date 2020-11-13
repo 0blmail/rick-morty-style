@@ -3,4 +3,5 @@ export interface Label {
   name?: string;
   url?: string;
   created?: Date;
+  image?: string;
 }
