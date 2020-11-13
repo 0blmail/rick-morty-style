@@ -1,11 +1,6 @@
-.display-card {
-  width: 90%;
-  height: 100%;
-  margin: 10px;
-
-  .display-card-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+.display-card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
