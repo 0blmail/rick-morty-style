@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { SharedModule } from '../../shared/shared.module';
 import { CharactersComponent } from './characters.component';
 
 
@@ -7,7 +8,8 @@ import { CharactersComponent } from './characters.component';
 @NgModule({
   declarations: [CharactersComponent],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    SharedModule,
+  ],
 })
 export class CharactersModule { }

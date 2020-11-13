@@ -1,0 +1,9 @@
+.characters-container {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
